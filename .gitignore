@@ -1,0 +1,28 @@
+# Ignore virtual environment
+myenv/
+
+# Ignore pickle files (FAISS index and others)
+*.pkl
+*.pickle
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment and secrets files
+.env
+*.env
+*.env.*
+
+# VS Code settings (if using VS Code)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# PyCharm settings (if using PyCharm)
+.idea/
